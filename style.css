@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.header{
+    background: #6900d1;
+    
+}
+.navbar{
+    padding-top: 20px;
+}
+.nav-item{
+    margin-left:40px ;
+    margin-bottom: 10px;
+    }
+.nav-link{
+    color: white !important;
+    font-size: 12px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+}
+.navbar-brand img{
+    height: 40px;
+}
+.fa-bars{
+    color: white;
+    font-size: 40px !important;
+}
+.navbar-toggler{
+    border: none;
+    outline: none;
+    padding: initial !important;
+}
+.active-home{
+    border-bottom: 2px solid #fff;
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+.banner{
+    margin-top: 8%;
+    color: white;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 80px 0 50px;
+}
+.banner img{
+    max-height: 500px;
+}
+.banner a{
+    padding: 12px;  
+    text-decoration: none !important;
+    background: #6900d1;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    }
+.banner a:hover{
+    color: white;
+
+}
+.express-btn{
+    background: white !important;
+    color: black !important;
+    margin-right: 13px;
+}
+/* services */
+.services {
+    margin: 75px 0;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;    
+}
+.sub-title{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 70px;     
+}
+.service-box h6 {
+    margin-top: 19px;
+}
+.service-box{
+    cursor: pointer;
+      padding: 30px 10px;
+      transition: 0.4s;
+}
+.service-box img{
+    height: 40px;
+    
+}
+.fa-arrow-right{
+    font-size: 30px !important;
+    cursor: pointer;
+}
+.service-box:hover, .active-service{
+    background: #6900d1;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 15px 15px 2px rgba(213, 213,213, 0.5);
+}
+.active-service p{
+    color: white !important;
+
+}
+/* feature */
+.feature, .explore {
+    margin: 100px 0;
+}
+.feature img{
+    max-width: 77%;
+    cursor: pointer;
+}
+.feature h2{
+    margin-top: 100px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.feature p, .explore P{
+    margin-top: 25px ;
+    margin-bottom:50px ;
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+}
+.feature a, .explore A{
+    width: 170px;
+    padding: 15px 10px;
+    display: block;
+    background: #6900d1;
+    text-decoration: none;
+    color: #fff !important;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(214, 214,214, 0.5);
+}
+.explore h2{
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+/* review */
+.review{
+    margin: 100px 0;
+}
+.carousel-item img{
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-item{
+    text-align: center;
+    height: 430px;
+}
+.carousel-caption{
+    z-index: -1 !important;
+    box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.carousel-caption h6{
+    margin-top: 55px;
+    font-weight: bold;
+    color: black;
+}
+.carousel-caption small{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 50px;
+    color: black;
+}
+.carousel-caption p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    color: #808080 !important;
+
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(160 60 60);
+    background-clip: padding-box;
+    border-width: 10px 0px;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+    opacity: 0.5;
+    transition: opacity 0.6s ease 0s;
+}
+/* footer */
+.footer{
+    background: #6900d1;
+    padding-top: 5px;
+
+}
+.footer h2{
+   color: white;
+   font-weight: 600;
+   margin: 70px 0;
+}
